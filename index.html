@@ -23,7 +23,7 @@ from pathlib import Path
 # do not rename
 async def custom_site():
     import embed
-    platform.document.body.style.background = "#f7ef20"
+    platform.document.body.style.background = "#f3e5AB"
 
     platform.window.transfer.hidden = true
     platform.window.canvas.style.visibility = "visible"
@@ -70,7 +70,7 @@ async def custom_site():
         __import__(__name__).__file__ = main
 
         # now make a prompt
-        msg  = "Můžeme začít, klikni kamkoliv na stránku!"
+        msg  = "Muzeme zacit, klikni kamkoliv na stranku!"
         platform.window.infobox.innerText = msg
         print("\n"*4, f"    * Waiting for media user engagement. {msg} *" , "\n"*4)
 
@@ -438,4 +438,5 @@ frameborder="1"
     </script>
 
 </body>
+
 </html>
